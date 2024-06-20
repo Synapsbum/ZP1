@@ -1,0 +1,9 @@
+diff a/src/EclipseStudio/Sources/GameCode/UserProfile.h b/src/EclipseStudio/Sources/GameCode/UserProfile.h	(rejected hunks)
+@@ -429,7 +429,6 @@
+ 	int		SwearingCount;//AlexRedd:: Ban chat
+ 	int     RewardItemID;//AlexRedd:: Item Rewards System
+ 	char	UserID[32*2];//AlexReddd:: user id
+-	// I hate this we need to duplicate it...
+ 	
+ 	enum { MAX_LOADOUT_SLOTS = 5, };
+ 	wiCharDataFull	ArmorySlots[MAX_LOADOUT_SLOTS];

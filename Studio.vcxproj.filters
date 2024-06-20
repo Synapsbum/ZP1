@@ -1,0 +1,1803 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="2: Game">
+      <UniqueIdentifier>{02b0d290-1122-4b30-9f1b-b669878a97d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2: Game\GameObjects Code">
+      <UniqueIdentifier>{ee38c62f-3b50-4ff5-812b-3432af43e691}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2: Game\GameObjects Code\Static World Objects">
+      <UniqueIdentifier>{f147dbf2-773a-442f-b2f9-012ac7bcbca1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2: Game\GameObjects Code\Static World Objects\waterAnim">
+      <UniqueIdentifier>{bd041091-7cc7-4908-8042-c38e8088b413}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2: Game\GameObjects Code\SFX &amp; Particles">
+      <UniqueIdentifier>{ca15b30b-e251-46e6-bc6a-0c920c388d29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2: Game\GameObjects Code\Items / Weapons">
+      <UniqueIdentifier>{d5a8ba20-8715-4990-b38f-3cc7073e33e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2: Game\GameObjects Code\Nature and Procedural">
+      <UniqueIdentifier>{62d7268c-c5dd-4777-8500-2a79565ab9b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2: Game\GameObjects Code\Service Objects">
+      <UniqueIdentifier>{e2ecb9e2-0b3a-4eac-a28c-458c78963b02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2: Game\GameObjects Code\AI FPS">
+      <UniqueIdentifier>{dc4b946d-48c4-4c12-a044-6f10eb3552c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2: Game\GameObjects Code\Gameplay">
+      <UniqueIdentifier>{c71ac96f-3388-426b-a2ac-c0d18942a282}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2: Game\GameObjects Code\Gameplay\AI_Objects">
+      <UniqueIdentifier>{25ecb873-8cb5-4570-aa76-de2ae2fffa47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2: Game\Rendering">
+      <UniqueIdentifier>{b41ed555-baf7-42c6-a8dd-6cddb690de03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2: Game\Rendering\PC/Xbox">
+      <UniqueIdentifier>{445609b1-0a7d-4430-8e4c-d6d39e43b9e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2: Game\Rendering\Deffered HLSL">
+      <UniqueIdentifier>{aa492742-c615-4156-84a9-ece03acb07a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2: Game\Rendering\Deffered HLSL\PostFXes">
+      <UniqueIdentifier>{deb56bcb-d552-4c2d-90ca-ee5355c73725}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3: Client  / UI">
+      <UniqueIdentifier>{2dfdda85-7d46-4885-afd2-c1d4aebe05fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3: Client  / UI\UI">
+      <UniqueIdentifier>{4bba1c07-4ffb-43f0-8d2f-fa0945a5f064}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3: Client  / UI\Editors">
+      <UniqueIdentifier>{c7926004-c9c7-4168-94df-9af7865312f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3: Client  / UI\Account">
+      <UniqueIdentifier>{b56a88c2-4333-495a-a681-76e6f34f484c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3: Client  / UI\UI Filters">
+      <UniqueIdentifier>{81d32d61-ce8b-49b2-a998-29eb57e580d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Multiplayer">
+      <UniqueIdentifier>{f3bb380a-7e1b-4dd2-b19e-381fea9df327}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{45b6c1e0-8264-438d-8e7f-0183c97411ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BackEnd">
+      <UniqueIdentifier>{fd5917db-393d-4dc1-a2d5-099ba4ffddb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine">
+      <UniqueIdentifier>{6ed3b156-817f-406b-9d5b-a95bf0c874c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\ai">
+      <UniqueIdentifier>{a5d88c5e-0ce6-4fd3-bdbd-6167cc0b7e81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\ai\AutodeskNav">
+      <UniqueIdentifier>{d496000d-479d-4d88-b31d-f09d2bfe3933}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\fmod">
+      <UniqueIdentifier>{266716ef-c271-46f9-bb34-75b672a174f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\gameobjects">
+      <UniqueIdentifier>{ce2541ae-f37e-497d-8130-9d29ab5dce8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\TrueNature">
+      <UniqueIdentifier>{45d6b182-98a4-4c68-8dd4-fb18d886aaed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\TrueNature\Scaleform">
+      <UniqueIdentifier>{bb771bdb-c9bf-4f8b-b139-4d5ec7ff5998}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\TrueNature2">
+      <UniqueIdentifier>{f40eff6d-5939-4dcf-8054-f2412ab528d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\PhysX Character Controller">
+      <UniqueIdentifier>{835162b3-b0f1-40ec-a274-dd089da82cf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3: Client  / UI\UI\Studio">
+      <UniqueIdentifier>{a5eecee7-5e3b-466b-a3f4-f4b599281716}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Anticheat">
+      <UniqueIdentifier>{02266621-5363-429b-9dd2-b3d33ee7d6bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\bink">
+      <UniqueIdentifier>{63ebad83-d4ac-4a7d-a9d0-81743b4429f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Anticheat\DLL Injection">
+      <UniqueIdentifier>{7436abd0-be1f-46e2-a8b1-b0e13c49f406}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Sources\ObjectsCode\Gameplay\obj_AirDropSpawn.cpp">
+      <Filter>2: Game\GameObjects Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ObjectsCode\WORLD\obj_DebugTexture.cpp">
+      <Filter>2: Game\GameObjects Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ObjectsCode\World\Building.cpp">
+      <Filter>2: Game\GameObjects Code\Static World Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ObjectsCode\WORLD\Lake.CPP">
+      <Filter>2: Game\GameObjects Code\Static World Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ObjectsCode\World\Lamp.cpp">
+      <Filter>2: Game\GameObjects Code\Static World Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ObjectsCode\WORLD\obj_Group.cpp">
+      <Filter>2: Game\GameObjects Code\Static World Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ObjectsCode\WORLD\obj_LightMesh.cpp">
+      <Filter>2: Game\GameObjects Code\Static World Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ObjectsCode\WORLD\obj_Prefab.cpp">
+      <Filter>2: Game\GameObjects Code\Static World Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ObjectsCode\WORLD\PrefabManager.cpp">
+      <Filter>2: Game\GameObjects Code\Static World Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ObjectsCode\WORLD\PrefabUndoActions.cpp">
+      <Filter>2: Game\GameObjects Code\Static World Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ObjectsCode\WORLD\tree.cpp">
+      <Filter>2: Game\GameObjects Code\Static World Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ObjectsCode\WORLD\water.cpp">
+      <Filter>2: Game\GameObjects Code\Static World Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ObjectsCode\WORLD\WaterPlane.CPP">
+      <Filter>2: Game\GameObjects Code\Static World Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ObjectsCode\WORLD\waterAnim\fft.cpp">
+      <Filter>2: Game\GameObjects Code\Static World Objects\waterAnim</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ObjectsCode\WORLD\waterAnim\wavesGenerator.cpp">
+      <Filter>2: Game\GameObjects Code\Static World Objects\waterAnim</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ObjectsCode\Effects\obj_ParticleSystem.cpp">
+      <Filter>2: Game\GameObjects Code\SFX &amp; Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ObjectsCode\WEAPONS\Ammo.cpp">
+      <Filter>2: Game\GameObjects Code\Items / Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ObjectsCode\WEAPONS\Barricade.cpp">
+      <Filter>2: Game\GameObjects Code\Items / Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ObjectsCode\WEAPONS\BaseItemConfig.cpp">
+      <Filter>2: Game\GameObjects Code\Items / Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ObjectsCode\WEAPONS\Bullet.cpp">
+      <Filter>2: Game\GameObjects Code\Items / Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ObjectsCode\WEAPONS\BulletShellManager.cpp">
+      <Filter>2: Game\GameObjects Code\Items / Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ObjectsCode\WEAPONS\ChemLight.cpp">
+      <Filter>2: Game\GameObjects Code\Items / Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ObjectsCode\WEAPONS\ClientWeaponArmory.cpp">
+      <Filter>2: Game\GameObjects Code\Items / Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ObjectsCode\WEAPONS\ExplosionVisualController.cpp">
+      <Filter>2: Game\GameObjects Code\Items / Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ObjectsCode\WEAPONS\FarmBlock.cpp">
+      <Filter>2: Game\GameObjects Code\Items / Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ObjectsCode\WEAPONS\Flare.cpp">
+      <Filter>2: Game\GameObjects Code\Items / Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ObjectsCode\WEAPONS\FlashbangVisualController.cpp">
+      <Filter>2: Game\GameObjects Code\Items / Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ObjectsCode\WEAPONS\Gear.cpp">
+      <Filter>2: Game\GameObjects Code\Items / Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ObjectsCode\WEAPONS\GearConfig.cpp">
+      <Filter>2: Game\GameObjects Code\Items / Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ObjectsCode\WEAPONS\Grenade.cpp">
+      <Filter>2: Game\GameObjects Code\Items / Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ObjectsCode\WEAPONS\HeroConfig.cpp">
+      <Filter>2: Game\GameObjects Code\Items / Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ObjectsCode\WEAPONS\Safelock.cpp">
+      <Filter>2: Game\GameObjects Code\Items / Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ObjectsCode\WEAPONS\Weapon.cpp">
+      <Filter>2: Game\GameObjects Code\Items / Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ObjectsCode\WEAPONS\WeaponArmory.cpp">
+      <Filter>2: Game\GameObjects Code\Items / Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ObjectsCode\WEAPONS\WeaponConfig.cpp">
+      <Filter>2: Game\GameObjects Code\Items / Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ObjectsCode\Nature\GrassGen.cpp">
+      <Filter>2: Game\GameObjects Code\Nature and Procedural</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ObjectsCode\Nature\GrassLib.cpp">
+      <Filter>2: Game\GameObjects Code\Nature and Procedural</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ObjectsCode\Nature\GrassMap.cpp">
+      <Filter>2: Game\GameObjects Code\Nature and Procedural</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ObjectsCode\Nature\obj_LocalColorCorrection.cpp">
+      <Filter>2: Game\GameObjects Code\Nature and Procedural</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ObjectsCode\WORLD\obj_Road.cpp">
+      <Filter>2: Game\GameObjects Code\Nature and Procedural</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ObjectsCode\Nature\obj_Terrain.cpp">
+      <Filter>2: Game\GameObjects Code\Nature and Procedural</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ObjectsCode\Nature\wind.cpp">
+      <Filter>2: Game\GameObjects Code\Nature and Procedural</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ObjectsCode\WORLD\EnvmapGen.cpp">
+      <Filter>2: Game\GameObjects Code\Service Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ObjectsCode\WORLD\EnvmapProbes.cpp">
+      <Filter>2: Game\GameObjects Code\Service Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ObjectsCode\WORLD\obj_Depot.cpp">
+      <Filter>2: Game\GameObjects Code\Service Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ObjectsCode\WORLD\obj_EnvmapProbe.cpp">
+      <Filter>2: Game\GameObjects Code\Service Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ObjectsCode\AI\AI_Player.CPP">
+      <Filter>2: Game\GameObjects Code\AI FPS</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ObjectsCode\AI\AI_PlayerAnim.cpp">
+      <Filter>2: Game\GameObjects Code\AI FPS</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ObjectsCode\AI\AI_PlayerSenses.cpp">
+      <Filter>2: Game\GameObjects Code\AI FPS</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ObjectsCode\AI\r3dPhysSkeleton.cpp">
+      <Filter>2: Game\GameObjects Code\AI FPS</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ObjectsCode\Gameplay\AmbientSound.cpp">
+      <Filter>2: Game\GameObjects Code\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ObjectsCode\Gameplay\BaseItemSpawnPoint.cpp">
+      <Filter>2: Game\GameObjects Code\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ObjectsCode\Gameplay\BasePlayerSpawnPoint.cpp">
+      <Filter>2: Game\GameObjects Code\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ObjectsCode\Gameplay\BaseVehicleSpawnPoint.cpp">
+      <Filter>2: Game\GameObjects Code\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ObjectsCode\Gameplay\BattleZone.CPP">
+      <Filter>2: Game\GameObjects Code\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ObjectsCode\Gameplay\MapBorder.CPP">
+      <Filter>2: Game\GameObjects Code\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ObjectsCode\Gameplay\MusicTriggerArea.cpp">
+      <Filter>2: Game\GameObjects Code\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ObjectsCode\Gameplay\obj_AirDrop.cpp">
+      <Filter>2: Game\GameObjects Code\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ObjectsCode\Gameplay\obj_DamageArea.cpp">
+      <Filter>2: Game\GameObjects Code\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ObjectsCode\Gameplay\obj_DroppedItem.cpp">
+      <Filter>2: Game\GameObjects Code\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ObjectsCode\Gameplay\obj_Gravestone.cpp">
+      <Filter>2: Game\GameObjects Code\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ObjectsCode\Gameplay\obj_ItemSpawnPoint.cpp">
+      <Filter>2: Game\GameObjects Code\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ObjectsCode\Gameplay\obj_MissionArea.cpp">
+      <Filter>2: Game\GameObjects Code\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ObjectsCode\Gameplay\obj_MissionStateObject.cpp">
+      <Filter>2: Game\GameObjects Code\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ObjectsCode\Gameplay\obj_MissionTrigger.cpp">
+      <Filter>2: Game\GameObjects Code\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ObjectsCode\Gameplay\obj_NoClipBox.cpp">
+      <Filter>2: Game\GameObjects Code\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ObjectsCode\Gameplay\obj_NoClipPlane.cpp">
+      <Filter>2: Game\GameObjects Code\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ObjectsCode\Gameplay\obj_Note.cpp">
+      <Filter>2: Game\GameObjects Code\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ObjectsCode\Gameplay\obj_PermanentNote.cpp">
+      <Filter>2: Game\GameObjects Code\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ObjectsCode\Gameplay\obj_PlayerSpawnPoint.cpp">
+      <Filter>2: Game\GameObjects Code\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ObjectsCode\Gameplay\obj_PostBox.cpp">
+      <Filter>2: Game\GameObjects Code\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ObjectsCode\Gameplay\obj_RepairBench.cpp">
+      <Filter>2: Game\GameObjects Code\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ObjectsCode\Gameplay\obj_StoreNPC.cpp">
+      <Filter>2: Game\GameObjects Code\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ObjectsCode\Gameplay\obj_VehicleSpawnPoint.cpp">
+      <Filter>2: Game\GameObjects Code\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ObjectsCode\Gameplay\ReverbZone.cpp">
+      <Filter>2: Game\GameObjects Code\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ObjectsCode\Gameplay\ReverbZoneBox.cpp">
+      <Filter>2: Game\GameObjects Code\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ObjectsCode\Gameplay\SharedUsableItem.cpp">
+      <Filter>2: Game\GameObjects Code\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ObjectsCode\Gameplay\UIWeaponModel.cpp">
+      <Filter>2: Game\GameObjects Code\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ObjectsCode\Gameplay\obj_DeerDummy.cpp">
+      <Filter>2: Game\GameObjects Code\Gameplay\AI_Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ObjectsCode\Gameplay\obj_Zombie.cpp">
+      <Filter>2: Game\GameObjects Code\Gameplay\AI_Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ObjectsCode\Gameplay\obj_ZombieDummy.cpp">
+      <Filter>2: Game\GameObjects Code\Gameplay\AI_Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ObjectsCode\Gameplay\obj_ZombieSpawn.cpp">
+      <Filter>2: Game\GameObjects Code\Gameplay\AI_Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ObjectsCode\Gameplay\ZombieStates.cpp">
+      <Filter>2: Game\GameObjects Code\Gameplay\AI_Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\RENDERING\DX9\RenderDX9.cpp">
+      <Filter>2: Game\Rendering\PC/Xbox</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\RENDERING\Deffered\D3DMiscFunctions.cpp">
+      <Filter>2: Game\Rendering\Deffered HLSL</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\RENDERING\Deffered\DeferredHelpers.cpp">
+      <Filter>2: Game\Rendering\Deffered HLSL</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\RENDERING\Deffered\HUDFilters.cpp">
+      <Filter>2: Game\Rendering\Deffered HLSL</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\RENDERING\Deffered\PostFX.cpp">
+      <Filter>2: Game\Rendering\Deffered HLSL</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\RENDERING\Deffered\PostFXChief.cpp">
+      <Filter>2: Game\Rendering\Deffered HLSL</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\RENDERING\Deffered\RenderDeferredPointLightsOptimized.cpp">
+      <Filter>2: Game\Rendering\Deffered HLSL</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\RENDERING\Deffered\RenderDeffered.cpp">
+      <Filter>2: Game\Rendering\Deffered HLSL</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\RENDERING\Deffered\VisibilityGrid.cpp">
+      <Filter>2: Game\Rendering\Deffered HLSL</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\RENDERING\Deffered\CommonPostFX.cpp">
+      <Filter>2: Game\Rendering\Deffered HLSL\PostFXes</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\RENDERING\Deffered\PFX_1DLUTColorCorrection.cpp">
+      <Filter>2: Game\Rendering\Deffered HLSL\PostFXes</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\RENDERING\Deffered\PFX_3DLUTColorCorrection.cpp">
+      <Filter>2: Game\Rendering\Deffered HLSL\PostFXes</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\RENDERING\Deffered\PFX_AnaglyphComposite.cpp">
+      <Filter>2: Game\Rendering\Deffered HLSL\PostFXes</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\RENDERING\Deffered\PFX_BlackWhiteColorCorrection.cpp">
+      <Filter>2: Game\Rendering\Deffered HLSL\PostFXes</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\RENDERING\Deffered\PFX_BlurEdges.cpp">
+      <Filter>2: Game\Rendering\Deffered HLSL\PostFXes</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\RENDERING\Deffered\PFX_BrightnessContrast.cpp">
+      <Filter>2: Game\Rendering\Deffered HLSL\PostFXes</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\RENDERING\Deffered\PFX_BrightPass.cpp">
+      <Filter>2: Game\Rendering\Deffered HLSL\PostFXes</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\RENDERING\Deffered\PFX_CalcLuma.cpp">
+      <Filter>2: Game\Rendering\Deffered HLSL\PostFXes</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\RENDERING\Deffered\PFX_CameraMotionBlur.cpp">
+      <Filter>2: Game\Rendering\Deffered HLSL\PostFXes</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\RENDERING\Deffered\PFX_Combine.cpp">
+      <Filter>2: Game\Rendering\Deffered HLSL\PostFXes</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\RENDERING\Deffered\PFX_ComposeMultibloom.cpp">
+      <Filter>2: Game\Rendering\Deffered HLSL\PostFXes</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\RENDERING\Deffered\PFX_ConvertToLDR.cpp">
+      <Filter>2: Game\Rendering\Deffered HLSL\PostFXes</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\RENDERING\Deffered\PFX_Copy.cpp">
+      <Filter>2: Game\Rendering\Deffered HLSL\PostFXes</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\RENDERING\Deffered\PFX_CopyOutput.cpp">
+      <Filter>2: Game\Rendering\Deffered HLSL\PostFXes</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\RENDERING\Deffered\PFX_DirectionalBlur.cpp">
+      <Filter>2: Game\Rendering\Deffered HLSL\PostFXes</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\RENDERING\Deffered\PFX_DirectionalStreaks.cpp">
+      <Filter>2: Game\Rendering\Deffered HLSL\PostFXes</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\RENDERING\Deffered\PFX_DOFExtractNear.cpp">
+      <Filter>2: Game\Rendering\Deffered HLSL\PostFXes</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\RENDERING\Deffered\PFX_DownSample.cpp">
+      <Filter>2: Game\Rendering\Deffered HLSL\PostFXes</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\RENDERING\Deffered\PFX_ExplosionBlur.cpp">
+      <Filter>2: Game\Rendering\Deffered HLSL\PostFXes</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\RENDERING\Deffered\PFX_ExposureBlend.cpp">
+      <Filter>2: Game\Rendering\Deffered HLSL\PostFXes</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\RENDERING\Deffered\PFX_ExtractBloom.cpp">
+      <Filter>2: Game\Rendering\Deffered HLSL\PostFXes</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\RENDERING\Deffered\PFX_ExtractGlow.cpp">
+      <Filter>2: Game\Rendering\Deffered HLSL\PostFXes</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\RENDERING\Deffered\PFX_Fill.cpp">
+      <Filter>2: Game\Rendering\Deffered HLSL\PostFXes</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\RENDERING\Deffered\PFX_FilmGrain.cpp">
+      <Filter>2: Game\Rendering\Deffered HLSL\PostFXes</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\RENDERING\Deffered\PFX_FilmTone.cpp">
+      <Filter>2: Game\Rendering\Deffered HLSL\PostFXes</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\RENDERING\Deffered\PFX_FXAA.cpp">
+      <Filter>2: Game\Rendering\Deffered HLSL\PostFXes</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\RENDERING\Deffered\PFX_GammaCorrect.cpp">
+      <Filter>2: Game\Rendering\Deffered HLSL\PostFXes</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\RENDERING\Deffered\PFX_GodRays.cpp">
+      <Filter>2: Game\Rendering\Deffered HLSL\PostFXes</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\RENDERING\Deffered\PFX_Interpolate.cpp">
+      <Filter>2: Game\Rendering\Deffered HLSL\PostFXes</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\RENDERING\Deffered\PFX_LensDirt.cpp">
+      <Filter>2: Game\Rendering\Deffered HLSL\PostFXes</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\RENDERING\Deffered\PFX_LensDirt_ExtractLuma.cpp">
+      <Filter>2: Game\Rendering\Deffered HLSL\PostFXes</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\RENDERING\Deffered\PFX_MinExpand.cpp">
+      <Filter>2: Game\Rendering\Deffered HLSL\PostFXes</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\RENDERING\Deffered\PFX_MixIn.cpp">
+      <Filter>2: Game\Rendering\Deffered HLSL\PostFXes</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\RENDERING\Deffered\PFX_MLAA.cpp">
+      <Filter>2: Game\Rendering\Deffered HLSL\PostFXes</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\RENDERING\Deffered\PFX_NightVision.cpp">
+      <Filter>2: Game\Rendering\Deffered HLSL\PostFXes</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\RENDERING\Deffered\PFX_ObjectMotionBlur.cpp">
+      <Filter>2: Game\Rendering\Deffered HLSL\PostFXes</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\RENDERING\Deffered\PFX_RadialBlur.cpp">
+      <Filter>2: Game\Rendering\Deffered HLSL\PostFXes</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\RENDERING\Deffered\PFX_ScopeEffect.cpp">
+      <Filter>2: Game\Rendering\Deffered HLSL\PostFXes</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\RENDERING\Deffered\PFX_SeedSunThroughStencil.cpp">
+      <Filter>2: Game\Rendering\Deffered HLSL\PostFXes</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\RENDERING\Deffered\PFX_StarShapeBlur.cpp">
+      <Filter>2: Game\Rendering\Deffered HLSL\PostFXes</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\RENDERING\Deffered\PFX_StencilToMask.cpp">
+      <Filter>2: Game\Rendering\Deffered HLSL\PostFXes</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\RENDERING\Deffered\PFX_StereoReproject.cpp">
+      <Filter>2: Game\Rendering\Deffered HLSL\PostFXes</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\RENDERING\Deffered\PFX_SunGlare.cpp">
+      <Filter>2: Game\Rendering\Deffered HLSL\PostFXes</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\RENDERING\Deffered\PFX_Transform.cpp">
+      <Filter>2: Game\Rendering\Deffered HLSL\PostFXes</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\DamageLib.cpp">
+      <Filter>3: Client  / UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Game.cpp">
+      <Filter>3: Client  / UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameLevel.cpp">
+      <Filter>3: Client  / UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameLevel_IO.cpp">
+      <Filter>3: Client  / UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\LangMngr.cpp">
+      <Filter>3: Client  / UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Main.cpp">
+      <Filter>3: Client  / UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Main_Network.cpp">
+      <Filter>3: Client  / UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\MeshPropertyLib.cpp">
+      <Filter>3: Client  / UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\r3dAtmosphere.cpp">
+      <Filter>3: Client  / UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\SectorMaster.cpp">
+      <Filter>3: Client  / UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\UI\HUD_Base.cpp">
+      <Filter>3: Client  / UI\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\UI\HUD_Character.cpp">
+      <Filter>3: Client  / UI\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\UI\HUD_EditorGame.cpp">
+      <Filter>3: Client  / UI\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\UI\HUD_ParticleEditor.cpp">
+      <Filter>3: Client  / UI\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\UI\HUD_PhysicsEditor.cpp">
+      <Filter>3: Client  / UI\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\UI\HUD_Spectator.cpp">
+      <Filter>3: Client  / UI\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\UI\HUD_TPSGame.cpp">
+      <Filter>3: Client  / UI\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\UI\HUDActionUI.cpp">
+      <Filter>3: Client  / UI\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\UI\HUDAttachments.cpp">
+      <Filter>3: Client  / UI\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\UI\HUDBattleZone.cpp">
+      <Filter>3: Client  / UI\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\UI\HUDCameraEffects.cpp">
+      <Filter>3: Client  / UI\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\UI\HUDCrafting.cpp">
+      <Filter>3: Client  / UI\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\UI\HUDDisplay.cpp">
+      <Filter>3: Client  / UI\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\UI\HUDPause.cpp">
+      <Filter>3: Client  / UI\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\UI\HUDRepair.cpp">
+      <Filter>3: Client  / UI\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\UI\HUDSafelock.cpp">
+      <Filter>3: Client  / UI\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\UI\HUDSell.cpp">
+      <Filter>3: Client  / UI\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\UI\HUDStore.cpp">
+      <Filter>3: Client  / UI\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\UI\HUDTrade.cpp">
+      <Filter>3: Client  / UI\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\UI\HUDVault.cpp">
+      <Filter>3: Client  / UI\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\UI\UIMenu.cpp">
+      <Filter>3: Client  / UI\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Editors\CameraSpotsManager.cpp">
+      <Filter>3: Client  / UI\Editors</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Editors\CollectionElement.cpp">
+      <Filter>3: Client  / UI\Editors</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Editors\CollectionElementProxyObject.cpp">
+      <Filter>3: Client  / UI\Editors</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Editors\CollectionsManager.cpp">
+      <Filter>3: Client  / UI\Editors</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Editors\CollectionType.cpp">
+      <Filter>3: Client  / UI\Editors</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Editors\DecalProxyObject.cpp">
+      <Filter>3: Client  / UI\Editors</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Editors\EditedValueTracker.cpp">
+      <Filter>3: Client  / UI\Editors</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Editors\LevelEditor.cpp">
+      <Filter>3: Client  / UI\Editors</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Editors\LevelEditor_Collections.cpp">
+      <Filter>3: Client  / UI\Editors</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Editors\LevelEditor_CollectionsUndo.cpp">
+      <Filter>3: Client  / UI\Editors</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Editors\LevelEditor_Decorators.cpp">
+      <Filter>3: Client  / UI\Editors</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Editors\ObjectManipulator3d.cpp">
+      <Filter>3: Client  / UI\Editors</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Editors\ParticleEditor.cpp">
+      <Filter>3: Client  / UI\Editors</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Editors\ParticleEditorUndoSubsystem.cpp">
+      <Filter>3: Client  / UI\Editors</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Editors\RoadEditor.cpp">
+      <Filter>3: Client  / UI\Editors</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Editors\Terrain3Editor.cpp">
+      <Filter>3: Client  / UI\Editors</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Editors\Tool_AxisControl.cpp">
+      <Filter>3: Client  / UI\Editors</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Editors\WaterEditorUndoSubsystem.cpp">
+      <Filter>3: Client  / UI\Editors</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameCode\UserClans.cpp">
+      <Filter>3: Client  / UI\Account</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameCode\UserFriends.cpp">
+      <Filter>3: Client  / UI\Account</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameCode\UserProfile.cpp">
+      <Filter>3: Client  / UI\Account</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameCode\UserRewards.cpp">
+      <Filter>3: Client  / UI\Account</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameCode\UserServerRental.cpp">
+      <Filter>3: Client  / UI\Account</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameCode\UserSettings.cpp">
+      <Filter>3: Client  / UI\Account</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameCode\UserSkills.cpp">
+      <Filter>3: Client  / UI\Account</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\UIFilters\NightVisionController.cpp">
+      <Filter>3: Client  / UI\UI Filters</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\multiplayer\ClientGameLogic.cpp">
+      <Filter>Multiplayer</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\multiplayer\LoginSessionPoller.cpp">
+      <Filter>Multiplayer</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\multiplayer\MasterServerLogic.cpp">
+      <Filter>Multiplayer</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\XMLHelpers.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Backend\HttpDownload.cpp">
+      <Filter>BackEnd</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Backend\WOBackendAPI.cpp">
+      <Filter>BackEnd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameEngine\CamouflageDataManager.cpp">
+      <Filter>GameEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameEngine\CSVLog.cpp">
+      <Filter>GameEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameEngine\DebugHelpers.cpp">
+      <Filter>GameEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameEngine\ai\AI_Brain.cpp">
+      <Filter>GameEngine\ai</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameEngine\ai\AI_Tactics.cpp">
+      <Filter>GameEngine\ai</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameEngine\ai\NavGenerationHelpers.cpp">
+      <Filter>GameEngine\ai</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameEngine\ai\NavRegionManager.cpp">
+      <Filter>GameEngine\ai</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameEngine\ai\AutodeskNav\AutodeskCustomBridges.cpp">
+      <Filter>GameEngine\ai\AutodeskNav</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameEngine\ai\AutodeskNav\AutodeskNavAgent.cpp">
+      <Filter>GameEngine\ai\AutodeskNav</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameEngine\ai\AutodeskNav\AutodeskNavAvoidanceFilter.cpp">
+      <Filter>GameEngine\ai\AutodeskNav</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameEngine\ai\AutodeskNav\AutodeskNavMesh.cpp">
+      <Filter>GameEngine\ai\AutodeskNav</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameEngine\ai\AutodeskNav\AutodeskNavProfile.cpp">
+      <Filter>GameEngine\ai\AutodeskNav</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameEngine\fmod\SoundSys.cpp">
+      <Filter>GameEngine\fmod</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameEngine\gameobjects\AObject.cpp">
+      <Filter>GameEngine\gameobjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameEngine\gameobjects\ApexActor.cpp">
+      <Filter>GameEngine\gameobjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameEngine\gameobjects\ApexFileStream.cpp">
+      <Filter>GameEngine\gameobjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameEngine\gameobjects\ApexRenderer.cpp">
+      <Filter>GameEngine\gameobjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameEngine\gameobjects\ApexWorld.cpp">
+      <Filter>GameEngine\gameobjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameEngine\gameobjects\GameObj.cpp">
+      <Filter>GameEngine\gameobjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameEngine\gameobjects\GenericQuadTree.cpp">
+      <Filter>GameEngine\gameobjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameEngine\gameobjects\obj_Apex.cpp">
+      <Filter>GameEngine\gameobjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameEngine\gameobjects\obj_Dummy.cpp">
+      <Filter>GameEngine\gameobjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ObjectsCode\Gameplay\obj_GasZone.cpp">
+      <Filter>GameEngine\gameobjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameEngine\gameobjects\obj_Mesh.cpp">
+      <Filter>GameEngine\gameobjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameEngine\gameobjects\obj_Sprite.cpp">
+      <Filter>GameEngine\gameobjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameEngine\gameobjects\obj_Vehicle.cpp">
+      <Filter>GameEngine\gameobjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameEngine\gameobjects\ObjManag.cpp">
+      <Filter>GameEngine\gameobjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameEngine\gameobjects\PhysObj.cpp">
+      <Filter>GameEngine\gameobjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameEngine\gameobjects\PhysXRepXHelpers.cpp">
+      <Filter>GameEngine\gameobjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameEngine\gameobjects\PhysXWorld.cpp">
+      <Filter>GameEngine\gameobjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameEngine\gameobjects\sceneBox.cpp">
+      <Filter>GameEngine\gameobjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameEngine\gameobjects\VehicleDescriptor.cpp">
+      <Filter>GameEngine\gameobjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameEngine\gameobjects\VehicleManager.cpp">
+      <Filter>GameEngine\gameobjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameEngine\TrueNature\HoffmanScatter.cpp">
+      <Filter>GameEngine\TrueNature</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameEngine\TrueNature\ITerrain.cpp">
+      <Filter>GameEngine\TrueNature</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameEngine\TrueNature\SkyDome.cpp">
+      <Filter>GameEngine\TrueNature</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameEngine\TrueNature\Sun.cpp">
+      <Filter>GameEngine\TrueNature</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameEngine\TrueNature\Terrain_Erosion.cpp">
+      <Filter>GameEngine\TrueNature</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameEngine\APIScaleformGfx.cpp">
+      <Filter>GameEngine\TrueNature\Scaleform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\Scaleform\Src\Render\D3D9\D3D9_HAL.cpp">
+      <Filter>GameEngine\TrueNature\Scaleform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\Scaleform\Src\Render\D3D9\D3D9_HALSetup.cpp">
+      <Filter>GameEngine\TrueNature\Scaleform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\Scaleform\Src\Render\D3D9\D3D9_MeshCache.cpp">
+      <Filter>GameEngine\TrueNature\Scaleform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\Scaleform\Src\Render\D3D9\D3D9_Shader.cpp">
+      <Filter>GameEngine\TrueNature\Scaleform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\Scaleform\Src\Render\D3D9\D3D9_ShaderBinary.cpp">
+      <Filter>GameEngine\TrueNature\Scaleform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\Scaleform\Src\Render\D3D9\D3D9_ShaderDescs.cpp">
+      <Filter>GameEngine\TrueNature\Scaleform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\Scaleform\Src\Render\D3D9\D3D9_Texture.cpp">
+      <Filter>GameEngine\TrueNature\Scaleform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameEngine\TrueNature2\Terrain3.cpp">
+      <Filter>GameEngine\TrueNature2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\PhysX\Source\PhysXCharacterKinematic\src\CctBoxController.cpp">
+      <Filter>GameEngine\PhysX Character Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\PhysX\Source\PhysXCharacterKinematic\src\CctCapsuleController.cpp">
+      <Filter>GameEngine\PhysX Character Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\PhysX\Source\PhysXCharacterKinematic\src\CctCharacterController.cpp">
+      <Filter>GameEngine\PhysX Character Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\PhysX\Source\PhysXCharacterKinematic\src\CctCharacterControllerCallbacks.cpp">
+      <Filter>GameEngine\PhysX Character Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\PhysX\Source\PhysXCharacterKinematic\src\CctCharacterControllerManager.cpp">
+      <Filter>GameEngine\PhysX Character Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\PhysX\Source\PhysXCharacterKinematic\src\CctController.cpp">
+      <Filter>GameEngine\PhysX Character Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\PhysX\Source\PhysXCharacterKinematic\src\CctObstacleContext.cpp">
+      <Filter>GameEngine\PhysX Character Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\PhysX\Source\PhysXCharacterKinematic\src\CctSweptBox.cpp">
+      <Filter>GameEngine\PhysX Character Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\PhysX\Source\PhysXCharacterKinematic\src\CctSweptCapsule.cpp">
+      <Filter>GameEngine\PhysX Character Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\PhysX\Source\PhysXCharacterKinematic\src\CctSweptVolume.cpp">
+      <Filter>GameEngine\PhysX Character Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\inject detect\Anticheat.cpp">
+      <Filter>Anticheat</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ObjectsCode\WORLD\DecalChief.cpp" />
+    <ClCompile Include="Sources\ObjectsCode\WORLD\DecalChiefUndoRedoActions.cpp" />
+    <ClCompile Include="Sources\ObjectsCode\Nature\GrassEditorPlanes.cpp" />
+    <ClCompile Include="Sources\ObjectsCode\WORLD\MaterialTypes.cpp" />
+    <ClCompile Include="Sources\multiplayer\NetCellMover.cpp" />
+    <ClCompile Include="r3dPCH.cpp" />
+    <ClCompile Include="Sources\SteamHelper.cpp" />
+    <ClCompile Include="Sources\TeamSpeakClient.cpp" />
+    <ClCompile Include="Sources\Commands.cpp" />
+    <ClCompile Include="Sources\UI\LoadingScreen.cpp">
+      <Filter>3: Client  / UI\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\UI\FrontEndShared.cpp">
+      <Filter>3: Client  / UI\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\UI\FrontEndWarZ.cpp">
+      <Filter>3: Client  / UI\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\UI\Studio\m_AppSelect.cpp">
+      <Filter>3: Client  / UI\UI\Studio</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ObjectsCode\WEAPONS\Rocket.cpp">
+      <Filter>2: Game\GameObjects Code\Items / Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\UI\HUDCommCalls.cpp">
+      <Filter>3: Client  / UI\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\loadout.cpp">
+      <Filter>3: Client  / UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bink\CutScene.cpp">
+      <Filter>GameEngine\bink</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\MemoryProtection.cpp">
+      <Filter>Anticheat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DLLThreadInjectionDetector\ThreadCheck.cpp">
+      <Filter>Anticheat\DLL Injection</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DLLThreadInjectionDetector\ThreadEnumerator.cpp">
+      <Filter>Anticheat\DLL Injection</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DLLThreadInjectionDetector\Utils.cpp">
+      <Filter>Anticheat\DLL Injection</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DLLThreadInjectionDetector\DLLCheck.cpp">
+      <Filter>Anticheat\DLL Injection</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ObjectsCode\WEAPONS\BackPack.cpp">
+      <Filter>2: Game\GameObjects Code\Items / Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\UI\HUDSkins.cpp">
+      <Filter>3: Client  / UI\UI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Sources\ObjectsCode\Gameplay\obj_AirDropSpawn.h">
+      <Filter>2: Game\GameObjects Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ObjectsCode\World\Building.h">
+      <Filter>2: Game\GameObjects Code\Static World Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ObjectsCode\WORLD\Lake.H">
+      <Filter>2: Game\GameObjects Code\Static World Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ObjectsCode\World\Lamp.H">
+      <Filter>2: Game\GameObjects Code\Static World Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ObjectsCode\WORLD\obj_Group.H">
+      <Filter>2: Game\GameObjects Code\Static World Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ObjectsCode\WORLD\obj_LightMesh.h">
+      <Filter>2: Game\GameObjects Code\Static World Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ObjectsCode\WORLD\obj_Prefab.h">
+      <Filter>2: Game\GameObjects Code\Static World Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ObjectsCode\WORLD\PrefabManager.h">
+      <Filter>2: Game\GameObjects Code\Static World Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ObjectsCode\WORLD\PrefabUndoActions.h">
+      <Filter>2: Game\GameObjects Code\Static World Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ObjectsCode\WORLD\tree.h">
+      <Filter>2: Game\GameObjects Code\Static World Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ObjectsCode\WORLD\water.h">
+      <Filter>2: Game\GameObjects Code\Static World Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ObjectsCode\WORLD\WaterPlane.H">
+      <Filter>2: Game\GameObjects Code\Static World Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ObjectsCode\WORLD\waterAnim\fft.h">
+      <Filter>2: Game\GameObjects Code\Static World Objects\waterAnim</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ObjectsCode\WORLD\waterAnim\wavesGenerator.h">
+      <Filter>2: Game\GameObjects Code\Static World Objects\waterAnim</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ObjectsCode\Effects\obj_ParticleSystem.H">
+      <Filter>2: Game\GameObjects Code\SFX &amp; Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ObjectsCode\WEAPONS\Ammo.h">
+      <Filter>2: Game\GameObjects Code\Items / Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ObjectsCode\WEAPONS\Barricade.h">
+      <Filter>2: Game\GameObjects Code\Items / Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ObjectsCode\WEAPONS\BaseItemConfig.h">
+      <Filter>2: Game\GameObjects Code\Items / Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ObjectsCode\WEAPONS\Bullet.h">
+      <Filter>2: Game\GameObjects Code\Items / Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ObjectsCode\WEAPONS\BulletShellManager.h">
+      <Filter>2: Game\GameObjects Code\Items / Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ObjectsCode\WEAPONS\ChemLight.h">
+      <Filter>2: Game\GameObjects Code\Items / Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ObjectsCode\WEAPONS\ClientWeaponArmory.h">
+      <Filter>2: Game\GameObjects Code\Items / Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ObjectsCode\WEAPONS\ExplosionVisualController.h">
+      <Filter>2: Game\GameObjects Code\Items / Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ObjectsCode\WEAPONS\FarmBlock.h">
+      <Filter>2: Game\GameObjects Code\Items / Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ObjectsCode\WEAPONS\Flare.h">
+      <Filter>2: Game\GameObjects Code\Items / Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ObjectsCode\WEAPONS\FlashbangVisualController.h">
+      <Filter>2: Game\GameObjects Code\Items / Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ObjectsCode\WEAPONS\Gear.h">
+      <Filter>2: Game\GameObjects Code\Items / Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ObjectsCode\WEAPONS\GearConfig.h">
+      <Filter>2: Game\GameObjects Code\Items / Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ObjectsCode\WEAPONS\Grenade.h">
+      <Filter>2: Game\GameObjects Code\Items / Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ObjectsCode\WEAPONS\HeroConfig.h">
+      <Filter>2: Game\GameObjects Code\Items / Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ObjectsCode\WEAPONS\Safelock.h">
+      <Filter>2: Game\GameObjects Code\Items / Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ObjectsCode\WEAPONS\Weapon.h">
+      <Filter>2: Game\GameObjects Code\Items / Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ObjectsCode\WEAPONS\WeaponArmory.h">
+      <Filter>2: Game\GameObjects Code\Items / Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ObjectsCode\WEAPONS\WeaponConfig.h">
+      <Filter>2: Game\GameObjects Code\Items / Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ObjectsCode\Nature\GrassGen.h">
+      <Filter>2: Game\GameObjects Code\Nature and Procedural</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ObjectsCode\Nature\GrassLib.h">
+      <Filter>2: Game\GameObjects Code\Nature and Procedural</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ObjectsCode\Nature\GrassMap.h">
+      <Filter>2: Game\GameObjects Code\Nature and Procedural</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ObjectsCode\Nature\obj_LocalColorCorrection.h">
+      <Filter>2: Game\GameObjects Code\Nature and Procedural</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ObjectsCode\WORLD\obj_Road.h">
+      <Filter>2: Game\GameObjects Code\Nature and Procedural</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ObjectsCode\Nature\obj_Terrain.H">
+      <Filter>2: Game\GameObjects Code\Nature and Procedural</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ObjectsCode\Nature\wind.h">
+      <Filter>2: Game\GameObjects Code\Nature and Procedural</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ObjectsCode\WORLD\EnvmapGen.h">
+      <Filter>2: Game\GameObjects Code\Service Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ObjectsCode\WORLD\EnvmapProbes.h">
+      <Filter>2: Game\GameObjects Code\Service Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ObjectsCode\WORLD\obj_DebugTexture.h">
+      <Filter>2: Game\GameObjects Code\Service Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ObjectsCode\WORLD\obj_Depot.H">
+      <Filter>2: Game\GameObjects Code\Service Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ObjectsCode\WORLD\obj_EnvmapProbe.h">
+      <Filter>2: Game\GameObjects Code\Service Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ObjectsCode\AI\AI_Player.H">
+      <Filter>2: Game\GameObjects Code\AI FPS</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ObjectsCode\AI\AI_PlayerAnim.h">
+      <Filter>2: Game\GameObjects Code\AI FPS</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ObjectsCode\AI\AI_PlayerSenses.h">
+      <Filter>2: Game\GameObjects Code\AI FPS</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Gameplay_Params.h">
+      <Filter>2: Game\GameObjects Code\AI FPS</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ObjectsCode\AI\r3dPhysSkeleton.h">
+      <Filter>2: Game\GameObjects Code\AI FPS</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ObjectsCode\AI\StateMachine.h">
+      <Filter>2: Game\GameObjects Code\AI FPS</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ObjectsCode\Gameplay\AmbientSound.h">
+      <Filter>2: Game\GameObjects Code\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ObjectsCode\Gameplay\BaseItemSpawnPoint.h">
+      <Filter>2: Game\GameObjects Code\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ObjectsCode\Gameplay\BasePlayerSpawnPoint.h">
+      <Filter>2: Game\GameObjects Code\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ObjectsCode\Gameplay\BaseVehicleSpawnPoint.h">
+      <Filter>2: Game\GameObjects Code\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ObjectsCode\Gameplay\BattleZone.H">
+      <Filter>2: Game\GameObjects Code\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ObjectsCode\Gameplay\MapBorder.H">
+      <Filter>2: Game\GameObjects Code\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ObjectsCode\Gameplay\MusicTriggerArea.h">
+      <Filter>2: Game\GameObjects Code\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ObjectsCode\Gameplay\obj_AirDrop.h">
+      <Filter>2: Game\GameObjects Code\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ObjectsCode\Gameplay\obj_DamageArea.h">
+      <Filter>2: Game\GameObjects Code\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ObjectsCode\Gameplay\obj_DroppedItem.h">
+      <Filter>2: Game\GameObjects Code\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ObjectsCode\Gameplay\obj_Gravestone.h">
+      <Filter>2: Game\GameObjects Code\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ObjectsCode\Gameplay\obj_ItemSpawnPoint.h">
+      <Filter>2: Game\GameObjects Code\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ObjectsCode\Gameplay\obj_MissionArea.h">
+      <Filter>2: Game\GameObjects Code\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ObjectsCode\Gameplay\obj_MissionStateObject.h">
+      <Filter>2: Game\GameObjects Code\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ObjectsCode\Gameplay\obj_MissionTrigger.h">
+      <Filter>2: Game\GameObjects Code\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ObjectsCode\Gameplay\obj_NoClipBox.h">
+      <Filter>2: Game\GameObjects Code\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ObjectsCode\Gameplay\obj_NoClipPlane.h">
+      <Filter>2: Game\GameObjects Code\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ObjectsCode\Gameplay\obj_Note.h">
+      <Filter>2: Game\GameObjects Code\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ObjectsCode\Gameplay\obj_PermanentNote.h">
+      <Filter>2: Game\GameObjects Code\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ObjectsCode\Gameplay\obj_PlayerSpawnPoint.h">
+      <Filter>2: Game\GameObjects Code\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ObjectsCode\Gameplay\obj_PostBox.h">
+      <Filter>2: Game\GameObjects Code\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ObjectsCode\Gameplay\obj_RepairBench.h">
+      <Filter>2: Game\GameObjects Code\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ObjectsCode\Gameplay\obj_StoreNPC.h">
+      <Filter>2: Game\GameObjects Code\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ObjectsCode\Gameplay\obj_VehicleSpawnPoint.h">
+      <Filter>2: Game\GameObjects Code\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ObjectsCode\Gameplay\ReverbZone.h">
+      <Filter>2: Game\GameObjects Code\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ObjectsCode\Gameplay\ReverbZoneBox.h">
+      <Filter>2: Game\GameObjects Code\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ObjectsCode\Gameplay\SharedUsableItem.h">
+      <Filter>2: Game\GameObjects Code\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ObjectsCode\Gameplay\UIWeaponModel.h">
+      <Filter>2: Game\GameObjects Code\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ObjectsCode\Gameplay\obj_DeerDummy.h">
+      <Filter>2: Game\GameObjects Code\Gameplay\AI_Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ObjectsCode\Gameplay\obj_Zombie.h">
+      <Filter>2: Game\GameObjects Code\Gameplay\AI_Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ObjectsCode\Gameplay\obj_ZombieDummy.h">
+      <Filter>2: Game\GameObjects Code\Gameplay\AI_Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ObjectsCode\Gameplay\obj_ZombieSpawn.h">
+      <Filter>2: Game\GameObjects Code\Gameplay\AI_Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ObjectsCode\Gameplay\ZombieStates.h">
+      <Filter>2: Game\GameObjects Code\Gameplay\AI_Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\bin\Data\Shaders\DX9_P1\SYSTEM\LibSM\shadow_config.h">
+      <Filter>2: Game\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\RENDERING\DX9\DrawWorld.hpp">
+      <Filter>2: Game\Rendering\PC/Xbox</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\RENDERING\DX9\RenderDX9.h">
+      <Filter>2: Game\Rendering\PC/Xbox</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\RENDERING\Deffered\D3DMiscFunctions.h">
+      <Filter>2: Game\Rendering\Deffered HLSL</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\RENDERING\Deffered\DeferredHelpers.h">
+      <Filter>2: Game\Rendering\Deffered HLSL</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\RENDERING\Deffered\FogEffects.hpp">
+      <Filter>2: Game\Rendering\Deffered HLSL</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\RENDERING\Deffered\HUDFilters.h">
+      <Filter>2: Game\Rendering\Deffered HLSL</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\RENDERING\Deffered\PostFX.h">
+      <Filter>2: Game\Rendering\Deffered HLSL</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\RENDERING\Deffered\PostFXChief.h">
+      <Filter>2: Game\Rendering\Deffered HLSL</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\RENDERING\Deffered\RenderDeferredPointLightsOptimized.h">
+      <Filter>2: Game\Rendering\Deffered HLSL</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\RENDERING\Deffered\RenderDeffered.h">
+      <Filter>2: Game\Rendering\Deffered HLSL</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\RENDERING\Deffered\RenderDefferedScene.hpp">
+      <Filter>2: Game\Rendering\Deffered HLSL</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\RENDERING\Deffered\rendershadowmap.hpp">
+      <Filter>2: Game\Rendering\Deffered HLSL</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\RENDERING\Deffered\VisibilityGrid.h">
+      <Filter>2: Game\Rendering\Deffered HLSL</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\RENDERING\Deffered\CommonPostFX.h">
+      <Filter>2: Game\Rendering\Deffered HLSL\PostFXes</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\RENDERING\Deffered\PFX_1DLUTColorCorrection.h">
+      <Filter>2: Game\Rendering\Deffered HLSL\PostFXes</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\RENDERING\Deffered\PFX_3DLUTColorCorrection.h">
+      <Filter>2: Game\Rendering\Deffered HLSL\PostFXes</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\RENDERING\Deffered\PFX_AnaglyphComposite.h">
+      <Filter>2: Game\Rendering\Deffered HLSL\PostFXes</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\RENDERING\Deffered\PFX_BlackWhiteColorCorrection.h">
+      <Filter>2: Game\Rendering\Deffered HLSL\PostFXes</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\RENDERING\Deffered\PFX_BlurEdges.h">
+      <Filter>2: Game\Rendering\Deffered HLSL\PostFXes</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\RENDERING\Deffered\PFX_BrightnessContrast.h">
+      <Filter>2: Game\Rendering\Deffered HLSL\PostFXes</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\RENDERING\Deffered\PFX_BrightPass.h">
+      <Filter>2: Game\Rendering\Deffered HLSL\PostFXes</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\RENDERING\Deffered\PFX_CalcLuma.h">
+      <Filter>2: Game\Rendering\Deffered HLSL\PostFXes</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\RENDERING\Deffered\PFX_CameraMotionBlur.h">
+      <Filter>2: Game\Rendering\Deffered HLSL\PostFXes</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\RENDERING\Deffered\PFX_Combine.h">
+      <Filter>2: Game\Rendering\Deffered HLSL\PostFXes</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\RENDERING\Deffered\PFX_ComposeMultibloom.h">
+      <Filter>2: Game\Rendering\Deffered HLSL\PostFXes</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\RENDERING\Deffered\PFX_ConvertToLDR.h">
+      <Filter>2: Game\Rendering\Deffered HLSL\PostFXes</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\RENDERING\Deffered\PFX_Copy.h">
+      <Filter>2: Game\Rendering\Deffered HLSL\PostFXes</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\RENDERING\Deffered\PFX_CopyOutput.h">
+      <Filter>2: Game\Rendering\Deffered HLSL\PostFXes</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\RENDERING\Deffered\PFX_DirectionalBlur.h">
+      <Filter>2: Game\Rendering\Deffered HLSL\PostFXes</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\RENDERING\Deffered\PFX_DirectionalStreaks.h">
+      <Filter>2: Game\Rendering\Deffered HLSL\PostFXes</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\RENDERING\Deffered\PFX_DOFExtractNear.h">
+      <Filter>2: Game\Rendering\Deffered HLSL\PostFXes</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\RENDERING\Deffered\PFX_DownSample.h">
+      <Filter>2: Game\Rendering\Deffered HLSL\PostFXes</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\RENDERING\Deffered\PFX_ExplosionBlur.h">
+      <Filter>2: Game\Rendering\Deffered HLSL\PostFXes</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\RENDERING\Deffered\PFX_ExposureBlend.h">
+      <Filter>2: Game\Rendering\Deffered HLSL\PostFXes</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\RENDERING\Deffered\PFX_ExtractBloom.h">
+      <Filter>2: Game\Rendering\Deffered HLSL\PostFXes</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\RENDERING\Deffered\PFX_ExtractGlow.h">
+      <Filter>2: Game\Rendering\Deffered HLSL\PostFXes</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\RENDERING\Deffered\PFX_Fill.h">
+      <Filter>2: Game\Rendering\Deffered HLSL\PostFXes</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\RENDERING\Deffered\PFX_FilmGrain.h">
+      <Filter>2: Game\Rendering\Deffered HLSL\PostFXes</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\RENDERING\Deffered\PFX_FilmTone.h">
+      <Filter>2: Game\Rendering\Deffered HLSL\PostFXes</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\RENDERING\Deffered\PFX_FXAA.h">
+      <Filter>2: Game\Rendering\Deffered HLSL\PostFXes</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\RENDERING\Deffered\PFX_GammaCorrect.h">
+      <Filter>2: Game\Rendering\Deffered HLSL\PostFXes</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\RENDERING\Deffered\PFX_GodRays.h">
+      <Filter>2: Game\Rendering\Deffered HLSL\PostFXes</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\RENDERING\Deffered\PFX_Interpolate.h">
+      <Filter>2: Game\Rendering\Deffered HLSL\PostFXes</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\RENDERING\Deffered\PFX_LensDirt.h">
+      <Filter>2: Game\Rendering\Deffered HLSL\PostFXes</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\RENDERING\Deffered\PFX_LensDirt_ExtractLuma.h">
+      <Filter>2: Game\Rendering\Deffered HLSL\PostFXes</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\RENDERING\Deffered\PFX_MinExpand.h">
+      <Filter>2: Game\Rendering\Deffered HLSL\PostFXes</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\RENDERING\Deffered\PFX_MixIn.h">
+      <Filter>2: Game\Rendering\Deffered HLSL\PostFXes</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\RENDERING\Deffered\PFX_MLAA.h">
+      <Filter>2: Game\Rendering\Deffered HLSL\PostFXes</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\RENDERING\Deffered\PFX_NightVision.h">
+      <Filter>2: Game\Rendering\Deffered HLSL\PostFXes</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\RENDERING\Deffered\PFX_ObjectMotionBlur.h">
+      <Filter>2: Game\Rendering\Deffered HLSL\PostFXes</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\RENDERING\Deffered\PFX_RadialBlur.h">
+      <Filter>2: Game\Rendering\Deffered HLSL\PostFXes</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\RENDERING\Deffered\PFX_ScopeEffect.h">
+      <Filter>2: Game\Rendering\Deffered HLSL\PostFXes</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\RENDERING\Deffered\PFX_SeedSunThroughStencil.h">
+      <Filter>2: Game\Rendering\Deffered HLSL\PostFXes</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\RENDERING\Deffered\PFX_StarShapeBlur.h">
+      <Filter>2: Game\Rendering\Deffered HLSL\PostFXes</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\RENDERING\Deffered\PFX_StencilToMask.h">
+      <Filter>2: Game\Rendering\Deffered HLSL\PostFXes</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\RENDERING\Deffered\PFX_StereoReproject.h">
+      <Filter>2: Game\Rendering\Deffered HLSL\PostFXes</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\RENDERING\Deffered\PFX_SunGlare.h">
+      <Filter>2: Game\Rendering\Deffered HLSL\PostFXes</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\RENDERING\Deffered\PFX_Transform.h">
+      <Filter>2: Game\Rendering\Deffered HLSL\PostFXes</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\DamageLib.h">
+      <Filter>3: Client  / UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Game.h">
+      <Filter>3: Client  / UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameCommon.h">
+      <Filter>3: Client  / UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameLevel.h">
+      <Filter>3: Client  / UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\LangMngr.h">
+      <Filter>3: Client  / UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\MeshPropertyLib.h">
+      <Filter>3: Client  / UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\r3dAtmosphere.h">
+      <Filter>3: Client  / UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\SectorMaster.h">
+      <Filter>3: Client  / UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\UI\HUD_Base.h">
+      <Filter>3: Client  / UI\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\UI\HUD_Character.h">
+      <Filter>3: Client  / UI\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\UI\HUD_EditorGame.h">
+      <Filter>3: Client  / UI\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\UI\HUD_ParticleEditor.h">
+      <Filter>3: Client  / UI\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\UI\HUD_PhysicsEditor.h">
+      <Filter>3: Client  / UI\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\UI\HUD_Spectator.h">
+      <Filter>3: Client  / UI\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\UI\HUD_TPSGame.h">
+      <Filter>3: Client  / UI\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\UI\HUDActionUI.h">
+      <Filter>3: Client  / UI\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\UI\HUDAttachments.h">
+      <Filter>3: Client  / UI\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\UI\HUDCameraEffects.h">
+      <Filter>3: Client  / UI\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\UI\HUDCrafting.h">
+      <Filter>3: Client  / UI\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\UI\HUDDisplay.h">
+      <Filter>3: Client  / UI\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\UI\HUDPause.h">
+      <Filter>3: Client  / UI\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\UI\HUDRepair.h">
+      <Filter>3: Client  / UI\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\UI\HUDSafelock.h">
+      <Filter>3: Client  / UI\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\UI\HUDSell.h">
+      <Filter>3: Client  / UI\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\UI\HUDStore.h">
+      <Filter>3: Client  / UI\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\UI\HUDTrade.h">
+      <Filter>3: Client  / UI\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\UI\HUDVault.h">
+      <Filter>3: Client  / UI\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\UI\UIMenu.h">
+      <Filter>3: Client  / UI\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Editors\CameraSpotsManager.h">
+      <Filter>3: Client  / UI\Editors</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Editors\CollectionElement.h">
+      <Filter>3: Client  / UI\Editors</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Editors\CollectionElementProxyObject.h">
+      <Filter>3: Client  / UI\Editors</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Editors\CollectionsManager.h">
+      <Filter>3: Client  / UI\Editors</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Editors\CollectionsUtils.h">
+      <Filter>3: Client  / UI\Editors</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Editors\CollectionType.h">
+      <Filter>3: Client  / UI\Editors</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Editors\DecalProxyObject.h">
+      <Filter>3: Client  / UI\Editors</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Editors\EditedValueTracker.h">
+      <Filter>3: Client  / UI\Editors</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Editors\LevelEditor.h">
+      <Filter>3: Client  / UI\Editors</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Editors\LevelEditor_Collections.h">
+      <Filter>3: Client  / UI\Editors</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Editors\LevelEditor_CollectionsUndo.h">
+      <Filter>3: Client  / UI\Editors</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Editors\LevelEditor_Decorators.h">
+      <Filter>3: Client  / UI\Editors</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Editors\ObjectManipulator3d.h">
+      <Filter>3: Client  / UI\Editors</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Editors\ParticleEditorUndoSubsystem.h">
+      <Filter>3: Client  / UI\Editors</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Editors\RoadEditor.h">
+      <Filter>3: Client  / UI\Editors</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Editors\Terrain3Editor.h">
+      <Filter>3: Client  / UI\Editors</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Editors\Tool_AxisControl.h">
+      <Filter>3: Client  / UI\Editors</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Editors\WaterEditorUndoSubsystem.h">
+      <Filter>3: Client  / UI\Editors</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameCode\UserClans.h">
+      <Filter>3: Client  / UI\Account</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameCode\UserFriends.h">
+      <Filter>3: Client  / UI\Account</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameCode\UserProfile.h">
+      <Filter>3: Client  / UI\Account</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameCode\UserRewards.h">
+      <Filter>3: Client  / UI\Account</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameCode\UserServerRental.h">
+      <Filter>3: Client  / UI\Account</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameCode\UserSettings.h">
+      <Filter>3: Client  / UI\Account</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameCode\UserSkills.h">
+      <Filter>3: Client  / UI\Account</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\UIFilters\NightVisionController.h">
+      <Filter>3: Client  / UI\UI Filters</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\multiplayer\ClientGameLogic.h">
+      <Filter>Multiplayer</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\multiplayer\LoginSessionPoller.h">
+      <Filter>Multiplayer</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\multiplayer\MasterServerLogic.h">
+      <Filter>Multiplayer</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\multiplayer\P2PMessages.h">
+      <Filter>Multiplayer</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\DEBUG.HPP">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Helper.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\LoadWorld.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\XMLHelpers.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Backend\HttpDownload.h">
+      <Filter>BackEnd</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Backend\WOBackendAPI.h">
+      <Filter>BackEnd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameEngine\AutodeskMemoryAllocator.h">
+      <Filter>GameEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameEngine\CamouflageDataManager.h">
+      <Filter>GameEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameEngine\CSVLog.h">
+      <Filter>GameEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameEngine\DebugHelpers.h">
+      <Filter>GameEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameEngine\ai\AI_Brain.h">
+      <Filter>GameEngine\ai</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameEngine\ai\AI_Tactics.h">
+      <Filter>GameEngine\ai</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameEngine\ai\NavGenerationHelpers.h">
+      <Filter>GameEngine\ai</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameEngine\ai\NavRegionManager.h">
+      <Filter>GameEngine\ai</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameEngine\ai\AutodeskNav\AutodeskCustomBridges.h">
+      <Filter>GameEngine\ai\AutodeskNav</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameEngine\ai\AutodeskNav\AutodeskNavAgent.h">
+      <Filter>GameEngine\ai\AutodeskNav</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameEngine\ai\AutodeskNav\AutodeskNavAvoidanceFilter.h">
+      <Filter>GameEngine\ai\AutodeskNav</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameEngine\ai\AutodeskNav\AutodeskNavMesh.h">
+      <Filter>GameEngine\ai\AutodeskNav</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameEngine\ai\AutodeskNav\AutodeskNavProfile.h">
+      <Filter>GameEngine\ai\AutodeskNav</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameEngine\fmod\SoundSys.h">
+      <Filter>GameEngine\fmod</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameEngine\gameobjects\AObject.h">
+      <Filter>GameEngine\gameobjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameEngine\gameobjects\ApexActor.h">
+      <Filter>GameEngine\gameobjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameEngine\gameobjects\ApexCommon.h">
+      <Filter>GameEngine\gameobjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameEngine\gameobjects\ApexFileStream.h">
+      <Filter>GameEngine\gameobjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameEngine\gameobjects\ApexRenderer.h">
+      <Filter>GameEngine\gameobjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameEngine\gameobjects\ApexWorld.h">
+      <Filter>GameEngine\gameobjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameEngine\gameobjects\CollFunc.hpp">
+      <Filter>GameEngine\gameobjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameEngine\gameobjects\CollMain.h">
+      <Filter>GameEngine\gameobjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameEngine\gameobjects\CollMain.hpp">
+      <Filter>GameEngine\gameobjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameEngine\gameobjects\EventTransport.h">
+      <Filter>GameEngine\gameobjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameEngine\gameobjects\GameObj.h">
+      <Filter>GameEngine\gameobjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameEngine\gameobjects\GenericQuadTree.h">
+      <Filter>GameEngine\gameobjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameEngine\gameobjects\obj_Apex.hpp">
+      <Filter>GameEngine\gameobjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameEngine\gameobjects\obj_Dummy.h">
+      <Filter>GameEngine\gameobjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ObjectsCode\Gameplay\obj_GasZone.h">
+      <Filter>GameEngine\gameobjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameEngine\gameobjects\obj_Mesh.h">
+      <Filter>GameEngine\gameobjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameEngine\gameobjects\obj_Sprite.h">
+      <Filter>GameEngine\gameobjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameEngine\gameobjects\obj_Vehicle.h">
+      <Filter>GameEngine\gameobjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameEngine\gameobjects\ObjectRegistration.h">
+      <Filter>GameEngine\gameobjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameEngine\gameobjects\ObjManag.h">
+      <Filter>GameEngine\gameobjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameEngine\gameobjects\PhysObj.h">
+      <Filter>GameEngine\gameobjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameEngine\gameobjects\PhysXRepXHelpers.h">
+      <Filter>GameEngine\gameobjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameEngine\gameobjects\PhysXWorld.h">
+      <Filter>GameEngine\gameobjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameEngine\gameobjects\sceneBox.h">
+      <Filter>GameEngine\gameobjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameEngine\gameobjects\VehicleDescriptor.h">
+      <Filter>GameEngine\gameobjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameEngine\gameobjects\VehicleManager.h">
+      <Filter>GameEngine\gameobjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameEngine\TrueNature\cubemap.h">
+      <Filter>GameEngine\TrueNature</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameEngine\TrueNature\HeightNormalVert.h">
+      <Filter>GameEngine\TrueNature</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameEngine\TrueNature\HoffmanScatter.h">
+      <Filter>GameEngine\TrueNature</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameEngine\TrueNature\ITerrain.h">
+      <Filter>GameEngine\TrueNature</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameEngine\TrueNature\SkyDome.h">
+      <Filter>GameEngine\TrueNature</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameEngine\TrueNature\Sun.h">
+      <Filter>GameEngine\TrueNature</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameEngine\APIScaleformGfx.h">
+      <Filter>GameEngine\TrueNature\Scaleform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameEngine\TrueNature2\Terrain3.h">
+      <Filter>GameEngine\TrueNature2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\PhysX\Source\PhysXCharacterKinematic\src\CctBoxController.h">
+      <Filter>GameEngine\PhysX Character Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\PhysX\Source\PhysXCharacterKinematic\src\CctCapsuleController.h">
+      <Filter>GameEngine\PhysX Character Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\PhysX\Source\PhysXCharacterKinematic\src\CctCharacterController.h">
+      <Filter>GameEngine\PhysX Character Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\PhysX\Source\PhysXCharacterKinematic\src\CctCharacterControllerManager.h">
+      <Filter>GameEngine\PhysX Character Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\PhysX\Source\PhysXCharacterKinematic\src\CctController.h">
+      <Filter>GameEngine\PhysX Character Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\PhysX\Source\PhysXCharacterKinematic\src\CctInternalStructs.h">
+      <Filter>GameEngine\PhysX Character Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\PhysX\Source\PhysXCharacterKinematic\src\CctObstacleContext.h">
+      <Filter>GameEngine\PhysX Character Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\PhysX\Source\PhysXCharacterKinematic\src\CctSweptBox.h">
+      <Filter>GameEngine\PhysX Character Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\PhysX\Source\PhysXCharacterKinematic\src\CctSweptCapsule.h">
+      <Filter>GameEngine\PhysX Character Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\PhysX\Source\PhysXCharacterKinematic\src\CctSweptVolume.h">
+      <Filter>GameEngine\PhysX Character Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\PhysX\Source\PhysXCharacterKinematic\src\CctUtils.h">
+      <Filter>GameEngine\PhysX Character Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inject detect\Anticheat.h">
+      <Filter>Anticheat</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ObjectsCode\WORLD\DecalChief.h" />
+    <ClInclude Include="Sources\ObjectsCode\WORLD\DecalChiefUndoRedoActions.h" />
+    <ClInclude Include="Sources\ObjectsCode\Nature\GrassEditorPlanes.h" />
+    <ClInclude Include="Sources\ObjectsCode\WORLD\MaterialTypes.h" />
+    <ClInclude Include="Sources\multiplayer\NetCellMover.h" />
+    <ClInclude Include="Sources\resource.h" />
+    <ClInclude Include="Sources\SteamHelper.h" />
+    <ClInclude Include="Sources\TeamSpeakClient.h" />
+    <ClInclude Include="Sources\Commands.h" />
+    <ClInclude Include="Sources\UI\LoadingScreen.h">
+      <Filter>3: Client  / UI\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\UI\FrontEndShared.h">
+      <Filter>3: Client  / UI\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\UI\FrontEndWarZ.h">
+      <Filter>3: Client  / UI\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\UI\Studio\m_AppSelect.h">
+      <Filter>3: Client  / UI\UI\Studio</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Main_Network.h">
+      <Filter>3: Client  / UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ObjectsCode\WEAPONS\Rocket.h">
+      <Filter>2: Game\GameObjects Code\Items / Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\UI\HUDCommCalls.h">
+      <Filter>3: Client  / UI\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\loadout.h">
+      <Filter>3: Client  / UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bink\CutScene.h">
+      <Filter>GameEngine\bink</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DLLThreadInjectionDetector\main.h">
+      <Filter>Anticheat\DLL Injection</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DLLThreadInjectionDetector\ThreadEnumerator.h">
+      <Filter>Anticheat\DLL Injection</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DLLThreadInjectionDetector\Utils.h">
+      <Filter>Anticheat\DLL Injection</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ObjectsCode\WEAPONS\BackPack.h">
+      <Filter>2: Game\GameObjects Code\Items / Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\UI\HUDSkins.h">
+      <Filter>3: Client  / UI\UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Sources\resource.rc" />
+  </ItemGroup>
+</Project>

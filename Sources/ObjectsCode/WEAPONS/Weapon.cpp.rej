@@ -1,0 +1,15 @@
+diff a/src/EclipseStudio/Sources/ObjectsCode/WEAPONS/Weapon.cpp b/src/EclipseStudio/Sources/ObjectsCode/WEAPONS/Weapon.cpp	(rejected hunks)
+@@ -857,11 +857,10 @@
+ 
+ 				// calc reloaded amount and update weapon item ammo (SERVER CODE SYNC POINT)
+ 				wiInventoryItem& ammoItm = m_Owner->CurLoadout.Items[ammoSlot];
+-				int amount = ammoItm.Var1 < 0 ? clipCfg->m_Clipsize : ammoItm.Var1;
+-				getPlayerItem().Var1 = amount;
++				getPlayerItem().Var1 = ammoItm.Var1;
+ 				getPlayerItem().Var2 = clipCfg->m_itemID;
+ 
+-				m_Owner->ReloadWeaponFromSlot(m_BackpackIdx, ammoSlot, amount);
++				m_Owner->ReloadWeaponFromSlot(m_BackpackIdx, ammoSlot, ammoItm.Var1);
+ 			}
+ 
+ 			m_triggerPressed = 0;

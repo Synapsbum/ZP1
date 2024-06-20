@@ -1,0 +1,11 @@
+diff a/src/EclipseStudio/Sources/ObjectsCode/AI/AI_Player.CPP b/src/EclipseStudio/Sources/ObjectsCode/AI/AI_Player.CPP	(rejected hunks)
+@@ -7857,8 +7857,7 @@
+ 
+ 	// calc reloaded amount and update weapon item ammo (SERVER CODE SYNC POINT)
+ 	wiInventoryItem& ammoItm = wpn->m_Owner->CurLoadout.Items[n.AmmoSlot];
+-	int amount = ammoItm.Var1 < 0 ? clipCfg->m_Clipsize : ammoItm.Var1;
+-	wpn->getPlayerItem().Var1 = amount;
++	wpn->getPlayerItem().Var1 = ammoItm.Var1;
+ 	wpn->getPlayerItem().Var2 = clipCfg->m_itemID;
+ }
+ 
